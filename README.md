@@ -100,3 +100,7 @@ source :<br>
 [ Useful Linux Command Line Bash Shortcuts You Should Know ](https://www.tecmint.com/linux-command-line-bash-shortcut-keys/)<br>
 [ Shortcuts to move faster in Bash command line ](http://teohm.com/blog/shortcuts-to-move-faster-in-bash-command-line/)<br>
 [ shell 终端使用技巧 ](https://ahuigo.github.io/b/c/shell-zsh#/)<br>
+
+## License
+
+BashAndZshShortcuts is released under the [MIT license](LICENSE.txt).
