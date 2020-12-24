@@ -11,7 +11,7 @@
 | CTRL + G           | [O]                     | [O]                 | Escape from history search mode                                                |
 | CTRL + H           | [O]                     | [O]                 | Delete the character before the cursor  (Equal Backspace key)                  |
 | CTRL + I           | [O]                     | [O]                 | Equal Tab key                                                                  |
-| CTRL + J           | [O]                     | [O]                 | Equal Enter key(Newline)                                                       |
+| CTRL + J           | [O]                     | [O]                 | Equal Enter key(line feed)                                                     |
 | CTRL + K           | [O]                     | [O]                 | Delete the characters on the line after the current cursor position            |
 | CTRL + L           | [O]                     | [O]                 | Clear screen                                                                   |
 | CTRL + M           | [O]                     | [O]                 | Equal Enter key                                                                |
@@ -33,6 +33,7 @@
 | CTRL + Y           | [O]                     | [O]                 | Retrieves last item that you deleted or cut                (Exclude ^H, ^D)    |
 | CTRL + Z           | [O]                     | [O]                 | Suspend/stop current foreground process                                        |
 | CTRL + [           | [O]                     | [O]                 | Equal Esc key                                                                  |
+| CTRL + /           | [O]                     | [O]                 | Undo the last change                                                           |
 | CTRL + _           | [O]                     | [O]                 | Undo the last change                                                           |
 | ALT + B            | [O]                     | [O]                 | Move one word backward         (Equal CTRL + left arrow)                       |
 | ALT + C            | [O]                     | [O]                 | Initial-capitalize a word                           (Loop through)             |

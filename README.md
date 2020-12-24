@@ -28,6 +28,7 @@ e.g. CTRL + S, CTRL + Q for freeze/unfreeze output to the terminal
 | CTRL + Y           | [O]                     | [O]                 | Retrieves last item that you deleted or cut                (Exclude ^H, ^D)    |
 | ALT + Y            | [O]                     | [O]                 | Paste previously cut text             (Use it after CTRL + Y, Loop through)    |
 | Undo               |
+| CTRL + /           | [O]                     | [O]                 | Undo the last change                                                           |
 | CTRL + _           | [O]                     | [O]                 | Undo the last change                                                           |
 | History            |
 | CTRL + R           | [O]<br>reverse-i-search | [O]<br>bck-i-search | Search history                                                                 |
@@ -61,7 +62,7 @@ e.g. CTRL + S, CTRL + Q for freeze/unfreeze output to the terminal
 | CTRL + O           | [O]                     | [X]                 | Execute present command and display previous command                           |
 | Equal Control key  |
 | CTRL + I           | [O]                     | [O]                 | Equal Tab key                                                                  |
-| CTRL + J           | [O]                     | [O]                 | Equal Enter key(Newline)                                                       |
+| CTRL + J           | [O]                     | [O]                 | Equal Enter key(line feed)                                                     |
 | CTRL + M           | [O]                     | [O]                 | Equal Enter key                                                                |
 | CTRL + [           | [O]                     | [O]                 | Equal Esc key                                                                  |
 |                    |                         |                     | ALT + .  ==  Alt - _                                                           |
@@ -92,17 +93,17 @@ Press `CTRL + G` to escape from search mode.<p>
 `MetaKey` + `Count`  Command
 > MetaKey : Default Meta Key is `Alt` or `Esc`.<br>
 > Count : Repeat times,get reverse if count < 0<br>
-> Command : May be characters/control characters.
->>(Should be spread between Count and Command via CTRL+V if characters is number)<br>
+> Command : Can be characters/control characters.<br>
+> **Should be spread between Count and Command via CTRL+V if characters is number**<br>
 >e.g.<br>
->`MetaKey` + `12` -> a get 12 a<br>
+>`MetaKey` + `12` a -> get 12 a<br>
 >`MetaKey` + `3` ALT + B -> cursor move left 3 words<br>
 >`MetaKey` + `-3` ALT + B -> cursor move right 3 words<br>
 >`MetaKey` + `13` CTRL + V 0 -> get 13 0<br>
 
 ### Others :
-Use `set -o` to show all mode.
-
+Use `set -o` to show all mode.<br>
+[ Zsh Line Editor ](http://zsh.sourceforge.net/Doc/Release/Zsh-Line-Editor.html#Movement) **[ strongly recommend ]**<br>
 
 source :<br>
 [ shell 终端使用技巧 ](https://ahuigo.github.io/b/c/shell-zsh#/) **[ strongly recommend ]**<br>
