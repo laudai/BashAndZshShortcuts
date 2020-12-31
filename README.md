@@ -103,11 +103,11 @@ Press `CTRL + G` to escape from search mode.<p>
 
 ### Others :
 Use `set -o` to show all mode.<br>
-[ Zsh Line Editor ](http://zsh.sourceforge.net/Doc/Release/Zsh-Line-Editor.html#Movement) **[ strongly recommend ]**<br>
+[ Zsh Line Editor ](http://zsh.sourceforge.net/Doc/Release/Zsh-Line-Editor.html#Movement) **[ highly recommended ]**<br>
 
 source :<br>
-[ shell 终端使用技巧 ](https://ahuigo.github.io/b/c/shell-zsh#/) **[ strongly recommend ]**<br>
-[ How-to: Bash Keyboard Shortcuts ](https://ss64.com/bash/syntax-keyboard.html) **[ strongly recommend ]**<br>
+[ shell 终端使用技巧 ](https://ahuigo.github.io/b/c/shell-zsh#/) **[ highly recommended ]**<br>
+[ How-to: Bash Keyboard Shortcuts ](https://ss64.com/bash/syntax-keyboard.html) **[ highly recommended ]**<br>
 [ Bash Shell 快速鍵 (emacs-style) ](https://blog.codylab.com/bash-shell-shortcut/)<br>
 [ Bash Shell 快速鍵 ](https://blog.longwin.com.tw/2006/09/bash_hot_key_2006/)<br>
 [ The Best Keyboard Shortcuts for Bash (aka the Linux and macOS Terminal) ](https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/)<br>
